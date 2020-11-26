@@ -7,7 +7,7 @@ resource "aws_instance" "myinst"{
 ami = "ami-07a0da1997b55b23e"
 instance_type = "t2.micro"
 tags = {
-Name = "New-Key"
+Name = "Instance-1"
 }
 vpc_security_group_ids = ["sg-01087793dd7fe84d8"]
 count = 1
